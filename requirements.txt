@@ -1,0 +1,7 @@
+selenium
+bs4
+jsonlines
+pandas
+scikit-learn
+scipy
+sentence_transformers
