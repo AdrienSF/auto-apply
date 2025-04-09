@@ -1,6 +1,6 @@
 # auto-apply
-It seems most of the time spent applying to jobs is taken by the tedious filling of endless forms. While some application portals offer to fill forms from a resume or LinkedIn profile, this feature is unfortunately quite rare and often doesn't work very well... so I've implemented it myself. This project uses [sBERT](https://sbert.net/) language model to find appropriate answers to forms, and fill them automatically.
-<!-- Check out my git repository to learn how it works: [auto-apply](https://github.com/AdrienSF/auto-apply) -->
+It seems most of the time spent applying to jobs is taken by the tedious filling of endless forms. While some application portals offer to fill forms from a resume or LinkedIn profile, this feature is unfortunately quite rare and often doesn't work very well... so I've implemented it myself. I originally used ChatGPT, but I later optimized my pipeline to run locally on any laptop, using over 5000x less memory for the same result. This project now uses [sBERT](https://sbert.net/) language model to find appropriate answers to forms, and fill them automatically.
+
 
 There are still many types of HTML form elements this project doesn't know how to handle, but at this rate I will spend more time on this project than on actual applications, so I don't expect to continue working on it. (Feel free to fork and improve it yourself)
 
